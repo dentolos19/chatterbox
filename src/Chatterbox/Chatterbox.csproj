@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <TargetFramework>net8.0-windows</TargetFramework>
@@ -8,16 +7,13 @@
         <UseWPF>true</UseWPF>
         <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
     </PropertyGroup>
-
     <ItemGroup>
         <ProjectReference Include="..\Chatterbox.Core\Chatterbox.Core.csproj" />
     </ItemGroup>
-
     <ItemGroup>
         <Resource Include="Resources\Assets\Icon.png" />
         <Resource Include="Resources\Assets\Server.png" />
         <Resource Include="Resources\Assets\User.png" />
         <Resource Include="Resources\Assets\Unknown.png" />
     </ItemGroup>
-
 </Project>

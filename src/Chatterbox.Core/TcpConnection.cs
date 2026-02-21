@@ -48,6 +48,7 @@ public class TcpConnection
         {
             // Do nothing
         }
+
         _reader.Close();
         _writer.Close();
         if (_receiver.IsBusy)

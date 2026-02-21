@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/Chatterbox/Chatterbox.csproj" />
+  <Project Path="src/Chatterbox.Core/Chatterbox.Core.csproj" />
+  <Project Path="src/Chatterbox.Server/Chatterbox.Server.csproj" />
+</Solution>

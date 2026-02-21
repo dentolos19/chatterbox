@@ -32,6 +32,7 @@ public static class Program
                     Logger.Log("Port cannot be lower than 1024 or greater than 49151.");
                     return;
                 }
+
                 ServerName = options.Name;
                 ServerPort = options.Port;
             });
